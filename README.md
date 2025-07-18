@@ -1,5 +1,6 @@
 # Face-Recognition-Based-Image-Auto-Sorting
 Automatically detect and recognize multiple faces in images using deep learning, and sort them into respective person folders based on identity. A great real-world use case similar to how Google Photos or iOS Photos app groups people.
+
 🔍 Project Objective
 This project aims to:
 
@@ -17,16 +18,13 @@ Save the image to every corresponding person’s folder (if an image contains A,
 📦 Libraries:
 
 face_recognition (built on dlib)
-
 OpenCV
-
 scikit-learn
-
 pickle
-
 os, shutil
 
 📌 Features
+
 ✅ Multi-face detection and recognition per image
 
 ✅ Supports any number of known identities
